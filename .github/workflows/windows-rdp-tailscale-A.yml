@@ -6,6 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       ts_tailnet:
+      ...
         description: "Tailscale tailnet (e.g. you@gmail.com)"
         required: true
       ts_api_key:
