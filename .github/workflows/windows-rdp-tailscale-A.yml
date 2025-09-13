@@ -3,17 +3,11 @@ name: Windows RDP via Tailscale (A)
 
 
 on:
-
-  workflow_dispatch:
-
-    inputs:
-
-      ts_tailnet:
-
-        description: "Tailscale tailnet (e.g. you@gmail.com)"
-
-        required: true
-
+  workflow_dispatch:
+    inputs:
+      ts_tailnet:
+        description: "Tailscale tailnet (e.g. you@gmail.com)"
+        required: true
       ts_api_key:
 
         description: "Tailscale API key (device admin, no 'Bearer')"
